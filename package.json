@@ -1,0 +1,32 @@
+{
+  "name": "geojson-playground-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./app/index",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-hritani/geojson-playground-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-hritani/geojson-playground-service/issues"
+  },
+  "homepage": "https://github.com/ahmed-hritani/geojson-playground-service#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nock": "^13.3.1",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
